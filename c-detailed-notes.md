@@ -1,7 +1,5 @@
 # C Notes
-
-### Source :- Tuturialspoint
-### Author :- masterpranay
+This are notes I had taken from tuturialpoint along with learning C language .
 
 ## C - Program Structure
 
