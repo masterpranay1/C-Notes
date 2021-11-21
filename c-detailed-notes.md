@@ -40,3 +40,46 @@ A C program basically consists of :-
 3. Constants
 4. String Literal
 5. Symbol
+
+## C Data Types
+
+There are 4 types of data types in c:-
+
+1. Basic Types
+    - Integer
+    - Floats
+2. Enumerated Types
+3. Void
+4. Deriverd
+    - Pointer Types
+    - Array Types
+    - Structure Types
+    - Union Types
+    - Function Types
+
+**Integer types** 
+    - char (1 byte)
+    - unsigned char (1 char)
+    - signed char (1 char)
+    - int (2 or 4 bytes)
+    - unsigned int (2 or 4 bytes)
+    - short (2 bytes)
+    - unsigned short(2 bytes)
+    - long (8 bytes  or 4 bytes for 32 bit OS)
+    - unsigned long (8 bytes)
+
+We can use `sizeof()` to get exact size (int bytes) of variable.
+
+`INT_MAX` and all other works well in c.
+(But identifiers for some of them are different)
+
+**Floating Data Types** 
+    - float (4 bytes)
+    - double (8 bytes)
+    - long double (10 bytes)
+
+**Void** can also be classified in 3 ways.
+1. Function return as void
+2. Function argument as void
+3. Pointers as void
+
