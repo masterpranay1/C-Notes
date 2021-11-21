@@ -84,3 +84,14 @@ We can use `sizeof()` to get exact size (int bytes) of variable.
 2. Function argument as void
 3. Pointers as void
 
+## C - Variables
+
+`type variable_name;` :- syntax of declaring a variable. 
+`int sum;`
+
+Expression can be of two types:-
+1. lvalue
+2. rvalue
+
+ex. for `char x = 'a'` , here `char x` is lvalue and `'a'` is rvalue;
+- rvalue are constants which are assigned to lavlues.
