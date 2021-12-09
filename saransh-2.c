@@ -104,3 +104,40 @@
 //     return 0;
 // }
 
+//linear search
+// #
+
+//reverse array
+// #include<stdio.h>
+// int main()
+// {
+//     int a[5];
+//     int i;
+//     printf("enter the elements\n");
+//     for(i=0;i<5;i++)
+//     {
+//         scanf("%d",&a[i]);
+//     }
+//     for(i=4;i>=0;i--)
+//     {
+//         printf("elements after reverse is%d\n",a[i]);
+//     }
+//     return 0;
+// }
+
+#include<stdio.h>
+int main()
+{
+    int n,a;
+    printf("enter number");
+    scanf("%d",&n);
+    int x=0;
+    while(n>0)
+    {
+        a=n%10;
+        n=n/10;
+        x=x*10+a;
+    }
+    printf("%d",x);
+    return 0;
+}
